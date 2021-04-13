@@ -1,0 +1,9 @@
+include ':hi-ability'
+include ':modulars'
+include ':hilibrary'
+include ':navgation-learn'
+include ':reflectable_plugin'
+include ':reflect-learn'
+include ':kotlin-learn'
+include ':app'
+rootProject.name = "AndroidL-Master"

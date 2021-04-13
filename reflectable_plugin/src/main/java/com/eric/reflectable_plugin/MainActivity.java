@@ -1,0 +1,39 @@
+package com.eric.reflectable_plugin;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//        findViewById(R.id.tv_text).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(MainActivity.this, SecondActivity.class));
+//            }
+//        });
+//    }
+
+
+    public void attach(Activity activity) {
+        activity.setContentView(R.layout.activity_main);
+        findViewById(R.id.tv_text).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                System.out.println("==========================attach!!!");
+                startActivity(new Intent(activity, SecondActivity.class));
+            }
+        });
+    }
+
+
+    public void test(){
+        System.out.println("==========================test!!!");
+    }
+}

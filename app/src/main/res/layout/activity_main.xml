@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".viewModel.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="26sp" />
+
+
+    <TextView
+        android:id="@+id/tv_lifeCycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="lifeCycles"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tv_liveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="liveData"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText" />
+
+
+
+     <TextView
+        android:id="@+id/tv_retrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="retrofit"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText" />
+
+   <TextView
+        android:id="@+id/tv_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="线程"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText" />
+
+
+
+   <TextView
+        android:id="@+id/tv_coroutine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CoroutineActivity"
+        android:textSize="26sp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+</LinearLayout>
