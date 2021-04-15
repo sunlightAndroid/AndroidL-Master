@@ -9,12 +9,15 @@ class WaitNotifyDemo {
 
     private Object object = new Object();
     class runnable1 implements Runnable{
-
         @Override
         public void run() {
+            synchronized (object){
 
+            }
         }
     }
+
+
 
     public void test(){
 
