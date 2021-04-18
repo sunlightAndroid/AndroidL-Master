@@ -7,19 +7,47 @@ package com.eric.jetpack.thread.waitAndNotify;
  */
 class WaitNotifyDemo {
 
-    private Object object = new Object();
-    class runnable1 implements Runnable{
-        @Override
-        public void run() {
-            synchronized (object){
+    private String name = "this is null";
 
-            }
+    private synchronized void updateName(String name){
+        this.name = name;
+        notifyAll();
+    }
+
+    private synchronized void printName(){
+        try {
+            wait();
+            System.out.println(this.name);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
 
+    public static void main(String[] args) {
+        WaitNotifyDemo demo = new WaitNotifyDemo();
 
-    public void test(){
+        new Thread(() -> {
+            try {
+                Thread.sleep(500);
+                demo.printName();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+        }).start();
+
+
+        new Thread(() -> {
+            try {
+                Thread.sleep(2000);
+                demo.updateName("张三");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+        System.out.println("=============测试结束，这个也很有用！！！==================");
 
     }
 }

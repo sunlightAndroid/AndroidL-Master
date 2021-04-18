@@ -11,7 +11,7 @@ class SynchronizedDemo3 {
     /**
      * 比较这两种情况，synchronized的话 总数是 两个之和，不加的话会小一点
      */
-    private  int i;
+    private int i;
 
     //    private synchronized void count() {
 //        i++;
