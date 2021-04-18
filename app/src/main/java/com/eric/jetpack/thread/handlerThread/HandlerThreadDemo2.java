@@ -25,7 +25,7 @@ public class HandlerThreadDemo2 {
             quit = true;
         }
 
-        public void run() {
+        public void loop() {
             while (!quit) {
                 synchronized (this) {
                     if (task != null) {
