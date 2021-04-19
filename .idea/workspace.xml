@@ -13,38 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754895be-8150-4512-a993-66cbf369e342" name="Default Changelist" comment="更新">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/reentrantlock/ReentrantlockDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/synchronize/SynchronizedDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/threadPool/ThreadPoolDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AndroidL-Master.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AndroidL-Master.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hi-ability/AndroidL-Master.hi-ability.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hi-ability/AndroidL-Master.hi-ability.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/hilibrary/AndroidL-Master.hilibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/hilibrary/AndroidL-Master.hilibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kotlin-learn/AndroidL-Master.kotlin-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin-learn/AndroidL-Master.kotlin-learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/modulars/AndroidL-Master.modulars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/modulars/AndroidL-Master.modulars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/navgation-learn/AndroidL-Master.navgation-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/navgation-learn/AndroidL-Master.navgation-learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/reflect-learn/AndroidL-Master.reflect-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/reflect-learn/AndroidL-Master.reflect-learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/reflectable_plugin/AndroidL-Master.reflectable_plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/reflectable_plugin/AndroidL-Master.reflectable_plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/ThreadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/ThreadActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/waitAndNotify/WaitNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eric/jetpack/thread/waitAndNotify/WaitNotifyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_thread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_thread.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
