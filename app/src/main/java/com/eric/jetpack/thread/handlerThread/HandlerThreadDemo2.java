@@ -11,6 +11,12 @@ public class HandlerThreadDemo2 {
 
     static class CustomThread extends Thread {
         Looper looper = new Looper();
+
+        @Override
+        public void run() {
+            super.run();
+            looper.loop();
+        }
     }
 
     static class Looper {
@@ -58,8 +64,8 @@ public class HandlerThreadDemo2 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("结束线程。。");
         thread.looper.quit();
+        System.out.println("结束线程。。");
     }
 
 }
